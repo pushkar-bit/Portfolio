@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/472dc37e97.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo.jpg" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header" id="p" >
+                        <!-- <i class="fa-solid fa-house"></i> -->
+                        Home</a></li>
+                    <li><a href="#about" id="p">About Me</a></li>
+                    <li><a href="#services" id="p">Services</a></li>
+                    <li><a href="#portfolio" id="p">Portfolio</a></li>
+                    <li><a href="#contact" id="p">Contact</a></li>
+                    <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+                </ul>
+                
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>||Front End Developer||</p>
+                <h1>Hi, I'm <span>Pushkar 
+                    
+                </span></h1>
+            </div>
+        </div>
+
+    </div>
+    <!-- ------------about---------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/user.png.HEIC">
+
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Skilled in Python,Html,Css,Javascript and Specialized as a Front End Developer,also speciialized in Project Management,Research and Developement,Presentation,Public Speaking,Marketing and Branding.Looking forward to create more creative,aesthetic and interactive ui. </p>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                    <!-- <p class="tab-links">Skills</p> -->
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>UI/
+                            UX</span><br>Designing web app Interface</li>
+                        <li><span>Web Development</span><br>Web App development</li>
+                        <li><span>App Development</span><br>Building Android/iOS apps</li>
+                        <li><span>Leadership</span><br>managing teams ,doing RnD,startup ideas ,design sense and pitching ppts.</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>Esummits</span><br>participant in concept marketing challenge and more at e-summit IIIT Delhi</li>
+                        <!-- <li><span>Web Development</span><br>Web App development</li> -->
+                        <li><span>Arthakram</span><br>Working in Social media and Content creation Department in Arthakram Consulting Club</li>
+                        <li><span>Event Management of sneaker Fests and concerts</span><br>Working in Social media ,great at pitching ,marketing ,managing and running businesses</li>
+                        <li><span>MUNs and Declamations</span><br>I have been a regular participant and LSSC level winner in hindi and english declamations and also participated in MUNS debates and jam competitions</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>Newton School of Technology</span><br>Undergrad in B.tech in CS and AI</li>
+                        <!-- <li><span>Web Development</span><br>Web App development</li> -->
+                        <li><span>Sacred Heart Senior Secondary School</span><br>Grad in 2024</li>
+                    </ul>
+                </div>
+                
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ---------services-------- -->
+     <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p> I try to be creatuve with the websites using WebDevelopment ,keeping it minimal or visually aesthetic with a good blend of color mixes is my skill</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-sack-dollar"></i>
+                    <h2>Branding and Marketing</h2>
+                    <!-- <p> I try to be creatuve with the websites using WebDevelopment ,keeping it minimal or visually aesthetic with a good blend of color mixes is my skill</p> -->
+                     <p>I have been part of many dropshipping,event management associations and a Consulting club ,My specializations in connection building and connecting ,marketing and rebranding to scale up a business,also includes content creation and a good experienced understading of Social Media</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-microphone"></i>
+                    <h2>Presentations and Public Speaking</h2>
+                    <!-- <p> I try to be creatuve with the websites using WebDevelopment ,keeping it minimal or visually aesthetic with a good blend of color mixes is my skill</p> -->
+                    <p>
+                        I have a good experience in declamations,speeches and Public speaking debates,jams etc in both English and Hindi.So I am good at presenting and pitching .
+                    </p>
+                    <a href="#">Learn more</a>
+                </div>
+
+            </div>
+        </div>
+
+     </div>
+     <!-- --------portfolio------ -->
+      <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/i.jpg">
+                    <!-- Presentations -->
+                    <div class="layer">
+                        <h3>Presentation</h3>
+                        <p>A presntation created in a competition hosted by iiit d focusing on rebranding and marketing a new product and understanding the market with respect to its competitors</p>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/j.jpg">
+                    <!-- Front End web Developer -->
+                    <div class="layer">
+                        <h3>Front End web Developer</h3>
+                        <p>projects created by me ,using coding showcasing my work in front end development and web design</p>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/k.jpg">
+
+                    <!-- RnD experience -->
+                    <div class="layer">
+                        <h3>RnD experience</h3>
+                        <p>google docs research papers for a competition in an e summit showcasing some of my RnD skills</p>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+      </div>
+      <!-- --------contact---------- -->
+       <div id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="contact-left">
+                        <h1 class="sub-title">Contact Me</h1>
+                        <p> <i class="fa-solid fa-paper-plane"></i> pushkar.jain2024@nst.rishihood.edu.in</p>
+                        <p> <i class="fa-solid fa-phone"></i> 0123456789</p>
+                        <div class="social-icons">
+                            <a href=""><i class="fa-brands fa-instagram"></i></a>
+                            <a href=""><i class="fa-brands fa-pinterest"></i></a>
+                            <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                            <a href=""><i class="fa-brands fa-twitter"></i></a>
+                        </div>
+                        <a href="" download class="btn btn2">Download CV</a>
+                    </div>
+                    <div class="contact-right">
+                        <form name="submit-to-google-sheet">
+                            <input type="text" name="Name" placeholder="Your Name" required>
+                            <input type="email" name="Email" placeholder="Your Email" required>
+                            <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                            <button type="submit" class="btn btn2">Submit</button>
+                        </form>
+                        <span id="msg"></span>
+                        
+                    </div>
+                </div>
+
+            </div>
+            <div class="copyright">
+                <p>Copyright Pushkar. Made with <i class="fa-solid fa-heart"></i> by Easy Tutorials </p>
+            </div>
+       </div>
+
+<script>
+
+    var tablinks=document.getElementsByClassName("tab-links");
+    var tabcontents=document.getElementsByClassName("tab-contents");
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+            
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+            
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+
+    }
+</script>
+<script>
+    var sidemenu = document.getElementById("sidemenu");
+    function openmenu(){
+        sidemenu.style.right ="0";
+
+    }
+    function closemenu(){
+        sidemenu.style.right = "0"
+    } 
+
+
+</script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbzCVfyP1s1Z9k6-yBcXo8c6W3qfXQ-me5uvPucCur3QeJtxPLHRdizXkm9IZS0Xb9ZU0A/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg= document.getElementById("msg")
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML="Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML=""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+
+</body>
+</html>
