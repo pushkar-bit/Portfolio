@@ -1,0 +1,9 @@
+# Query: 0123456789
+# ContextLines: 1
+
+1 result - 1 file
+
+index.html:
+  160                          <p> <i class="fa-solid fa-paper-plane"></i> pushkar.jain2024@nst.rishihood.edu.in</p>
+  161:                         <p> <i class="fa-solid fa-phone"></i> 7986805107</p>
+  162                          <div class="social-icons">
